@@ -1,0 +1,129 @@
+*{align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: blueviolet;
+    padding: 0px 120px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    font-size: 30;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.wrap-menu{
+    padding: 10px 15px;
+    font-weight: 500;
+    display: flex; 
+    justify-content: space-between;
+    background-color: gray;
+}
+.menu{
+    margin: 0px 16px;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex; 
+    justify-content: space-between;
+}
+.hero-section{
+    width: 100%;
+    height: 670px;
+    padding: 0px 120px;
+    display: flex;
+    background-color: blue;
+    color: white;
+    justify-content: space-between;
+    
+}
+.hero-information h3{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.hero-information h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.hero-information p{
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+.hero-section a{
+    padding: 8px 32px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: blueviolet;
+    text-decoration: none;
+    border-radius: 12px;
+}
+.hero-image{
+    width: 361px;
+    height: 345px;
+}
+.hero-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+
+.putri-section {
+    width: 100%;
+    height: 670px;
+    padding: 0px 120px;
+    background-color: gray;
+}
+.putri-section h1{
+    font-size: 40px;
+    padding: 12px 0px;
+    display: flex;
+    justify-content: center;
+}
+.putri-section p{
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px;;
+}
+.putri-image{
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.putri-image img{ 
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    padding: 12px 12px;
+}
+
+.poppy-section{
+    width: 100%;
+    height: 50px;
+    padding: 0px 120px;
+    background-color: brown;
+    color: white;
+}
+.footerContainer {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+.sosialIcon {
+    display: flex;
+    justify-content: center;
+}
